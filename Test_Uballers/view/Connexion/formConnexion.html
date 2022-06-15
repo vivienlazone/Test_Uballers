@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" name="viewport" content="initial-scale=1, maximum-scale=1">
+		<title>Connexion - Test Uballers</title>
+	</head>
+	<body>
+		<div class="form-box">
+			<h1> Connexion </h1><br>
+			<form action="routeur.php?action=u_connected" method="post">
+				<div class="form-login">
+					<label> Email : </label>
+					<input type="email" name="email" placeholder="Votre login" required>
+				</div>
+				<br>
+				<div class="form-password">
+					<label> Password : </label>
+					<input type="password" name="password" placeholder="Votre mot de passe" required>
+				</div>
+				<br>
+				<input class="input-connexion" type="submit" value="Connexion !">
+			</form>
+			<br>
+			<form action="routeur.php?action=u_inscrip" method="post"> 
+				 <input class="input-inscription" type="submit" value="Inscription !">
+			</form>
+		</div>
+	</body>
+</html>

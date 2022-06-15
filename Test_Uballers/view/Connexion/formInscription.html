@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" name="viewport" content="initial-scale=1, maximum-scale=1">
+		<title>Inscription - Test Uballers</title>
+	</head>
+	<body>
+		<div class="form-box">
+			<h1> Inscription </h1><br>
+			<form action="routeur.php?action=u_inscriped" method="post">
+				<div class="form-prenom_nom">
+					 <input type="text" name="prenom" placeholder="Prénom" required>
+					 <input type="text" name="nom" placeholder="Nom de famille" required>
+				</div>
+				<br>
+				<div class="form-email">
+					<input type="email" name="email" placeholder="Email" required>
+					<input type="email" name="emailConf" placeholder="Confirmer email" required>
+				</div>
+				<br>
+				<div class="form-password">
+					<input type="password" name="password" placeholder="Mot de passe" required>
+					<input type="password" name="passwordConf" placeholder="Confirmer mot de passe" required>
+				</div>
+				<br><br>
+				<div class="form-date">
+					<label> Date de naissance : </label>
+					<input type="date" name="dateNaissance" required>
+				</div>
+				<br><br>
+				<div class="form-sexe">
+					<input type="radio" name="sexe" value="Femme" required > Femme
+					<input type="radio" name="sexe" value="Homme" required > Homme
+				</div>
+				<br><br>
+				<input class="input-inscription" type="submit" value="S'inscrire !">
+			</form>
+		</div>
+	</body>
+</html>
