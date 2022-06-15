@@ -10,6 +10,8 @@ Vous aurez ainsi accès au site.
 
 J'ai également utilisé phpMyAdmin pour créer une table Utilisateur afin stocker les données des personnes qui seront inscrites sur le site.
 
-HTML : 1-2h 
+HTML : 1-2h
+
 CSS : 1-2h
+
 PHP : 3-4h
