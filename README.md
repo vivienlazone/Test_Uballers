@@ -5,4 +5,5 @@ J'utilise Wampserver64 pour exécuter mes fichiers en php. Voici l'arborescence 
 
 - Tout d'abord, il faut aller dans le dossier Test_Uballers suivant : http://localhost/Test_Uballers/
 - Puis, il faut ouvrir routeur.php : http://localhost/Test_Uballers/routeur.php
-- 
+
+Vous aurez ainsi accès au site.
